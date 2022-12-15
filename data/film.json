@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Avatar",
+    "director": "James Cameron",
+    "actor": "Sam Worthington",
+    "year": 2009
+  },
+  {
+    "name": "Forsage",
+    "director": "Lin",
+    "actor": "Vin Diesel",
+    "year": 2006
+  },
+  {
+    "name": "Avangers",
+    "director": "Ruso",
+    "actor": "Tom Holland",
+    "year": 2020
+  }
+]
