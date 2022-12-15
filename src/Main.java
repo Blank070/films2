@@ -42,9 +42,15 @@ public class Main {
                 if (w==1){
                     director();
                 } else if (w==2){
-
+                    film();
+                } else {
+                    System.out.println("Good luck");
                 }
+            }else {
+                System.out.println("Good luck");
             }
+        }else {
+            System.out.println("Good luck");
         }
     }
 
