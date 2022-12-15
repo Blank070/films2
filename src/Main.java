@@ -138,7 +138,7 @@ public class Main {
         }
         director();
     }
-        private static void listYear () {
+        private static void listYear() throws IOException {
             System.out.println("1984");
             System.out.println("Terminator");
             System.out.println("1989");
@@ -170,6 +170,26 @@ public class Main {
             System.out.println("Forsage 9");
             System.out.println("2022");
             System.out.println("Avatar 2");
-
+            System.out.println("Желаете найти фильм по актеру?");
+            System.out.println("1 - да ");
+            System.out.println("2 - нет");
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            int q = Integer.parseInt(br.readLine());
+            if (q == 1) {
+                search();
+            } else if (q == 2) {
+                System.out.println("Желаете найти фильм по режиссёру?");
+                System.out.println("1 - да ");
+                System.out.println("2 - нет");
+                BufferedReader be = new BufferedReader(new InputStreamReader(System.in));
+                int w = Integer.parseInt(be.readLine());
+                if (w == 1) {
+                    director();
+                } else if (w == 2) {
+                    film();
+                } else {
+                    System.out.println("Good luck");
+                }
+            }
         }
 }
